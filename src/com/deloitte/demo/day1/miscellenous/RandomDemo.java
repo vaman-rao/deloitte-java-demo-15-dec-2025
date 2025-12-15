@@ -18,4 +18,3 @@ public class RandomDemo {
 
 //FQN 
 
-// print current time and date 
