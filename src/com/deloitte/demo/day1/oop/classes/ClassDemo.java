@@ -16,8 +16,9 @@ public class ClassDemo {
 		emp.salary = 90000.50;
 		System.out.println(emp.id + " " + emp.name + " " + emp.salary);
 		emp.work();
-
 		System.out.println(Employee.officeAddress + " " + Employee.officePhone);
+//		System.out.println(Employee.name); // CE 
+//		System.out.println(emp.officeAddress); // Warning 
 
 //		Product product = new Product();
 //		product.id = 10;
