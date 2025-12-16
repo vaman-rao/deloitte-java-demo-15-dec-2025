@@ -7,10 +7,20 @@ public class Employee {
 	double salary;
 
 	Employee() {
+		super();
 		System.out.println("default constructor called.");
 	}
 
+	Employee(int id, String name) {
+		super();
+		System.out.println("parameterized constructor called.");
+		this.id = id;
+		this.name = name;
+
+	}
+
 	Employee(int id, String name, double salary) {
+		super();
 		System.out.println("parameterized constructor called.");
 		this.id = id;
 		this.name = name;
@@ -18,6 +28,14 @@ public class Employee {
 
 	}
 
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + "]";
+	}
+
+	
+	
+	
 }
 
 // constructor - 
