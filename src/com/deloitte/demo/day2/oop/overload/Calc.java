@@ -1,4 +1,4 @@
-package com.deloitte.demo.day2.oop.overloading;
+package com.deloitte.demo.day2.oop.overload;
 
 public class Calc {
 
