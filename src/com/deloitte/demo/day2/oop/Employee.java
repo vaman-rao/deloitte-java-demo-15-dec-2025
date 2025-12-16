@@ -40,6 +40,10 @@ public class Employee {
 	public void setSalary(double salary) {
 		this.salary = salary;
 	}
+	
+//	hashCode 
+	
+//	equals 
 
 	@Override
 	public String toString() {

@@ -2,7 +2,7 @@ package com.deloitte.demo.day2.oop;
 
 //OOP 
 //Abstraction 
-//Encaosulation 
+//Encapsulation 
 //Polymorphism 
 //Inheritance 
 
@@ -11,7 +11,6 @@ public class EncapDemo {
 	public static void main(String[] args) {
 
 		Employee emp = new Employee();
-
 //		emp.salary = 10;
 //		emp.salary = 20;
 //		System.out.println(emp.salary);
