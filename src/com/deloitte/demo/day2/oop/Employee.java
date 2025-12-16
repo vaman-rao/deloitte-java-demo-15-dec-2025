@@ -43,8 +43,7 @@ public class Employee {
 		this.salary = salary;
 	}
 	
-	
-	
+		
 //	hashCode 
 	
 //	equals 
