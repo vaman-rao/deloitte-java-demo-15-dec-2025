@@ -13,8 +13,21 @@ public class AbstractDemo {
 
 		HdfcBank bank1 = new HdfcBank();
 		bank1.doKyc();
-		IciciBank bank2 = new IciciBank();
-		bank2.doKyc();
+		bank1.payInterest();
+		bank1.paySalary();
+		bank1.payTax();
+////		bank1 = new IciciBank();
+//		IciciBank bank2 = new IciciBank();
+//		bank2.doKyc();
+//
+////		int num = 10; // 9 11
+//		Rbi bank3 = new HdfcBank(); //
+////		bank3.payInterest();
+//		bank3 = new IciciBank();
+//		bank3.doKyc();
+//
+////		int num = 10;
+////		num = 20;
 	}
 
 }
