@@ -15,6 +15,7 @@ public class WrapperDemo {
 	
 		int num = 10;
 		Integer num2 = 20;
+
 		
 		byte b1 = 10; // -128 to 127 1 byte 
 		
@@ -24,6 +25,10 @@ public class WrapperDemo {
 		System.out.println(Integer.MAX_VALUE);
 		System.out.println(Integer.SIZE);
 		System.out.println(Integer.bitCount(num3));
+		
+		
+		
+		
 		
 		
 		
