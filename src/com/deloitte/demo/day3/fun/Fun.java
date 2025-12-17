@@ -6,7 +6,7 @@ public class Fun {
 
 // functional interface == 
 // it contains only one abstract method 
-
+// such a method is called functional method 
 @FunctionalInterface
 interface FunInt {
 
