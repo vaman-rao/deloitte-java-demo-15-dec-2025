@@ -18,8 +18,9 @@ public class ExDemo {
 		num2 = sc.nextInt();
 
 		try {
-			num3 = num1 / num2;
+			num3 = num1 / num2; // n / 0
 		} catch (ArithmeticException e) {
+			System.out.println(e);
 			System.out.println("Do not enter 0!");
 		} finally {
 			System.out.println(num3);
