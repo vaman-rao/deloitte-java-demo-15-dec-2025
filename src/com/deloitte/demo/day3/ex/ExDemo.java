@@ -21,12 +21,11 @@ public class ExDemo {
 			num3 = num1 / num2;
 		} catch (ArithmeticException e) {
 			System.out.println("Do not enter 0!");
+		} finally {
+			System.out.println(num3);
+			sc.close();
 		}
 
-		System.out.println(num3);
-		System.out.println();
-
-		sc.close();
 		System.out.println("End");
 
 	}
