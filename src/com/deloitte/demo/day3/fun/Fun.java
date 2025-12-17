@@ -24,3 +24,13 @@ interface FunInt {
 //	}
 //
 //}
+
+interface Gst {
+
+	public abstract double getGst(double amount, double rate);
+
+}
+
+interface fixedGst {
+
+}
