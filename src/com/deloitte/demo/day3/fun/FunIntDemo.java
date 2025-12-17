@@ -22,6 +22,7 @@ package com.deloitte.demo.day3.fun;
 /// self learning 
 // --------------------------------------
 
+// incomplete code 
 //public class FunIntDemo {
 //
 //	public static void main(String[] args) {
