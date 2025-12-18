@@ -18,6 +18,7 @@ public class GenericDemo {
 		myList.remove(0);
 		System.out.println(myList);
 		System.out.println(myList.size());
+//		myList.
 //		myList.add(false); // CE
 //		myList.add("abc"); // CE
 //		myList.add(10.25); // CE
