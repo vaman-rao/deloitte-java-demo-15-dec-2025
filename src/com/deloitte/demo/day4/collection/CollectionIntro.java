@@ -32,3 +32,10 @@ public class CollectionIntro {
 	}
 
 }
+
+// questions 
+//difference bw hashset and linkedhashset 
+//bw hashmap and linkedhashmap 
+//bw vector and stack 
+//bw list and set 
+// what is capacity and its arguments in vector and stack 
