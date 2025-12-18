@@ -14,9 +14,9 @@ public class ListMethods {
 		list.add("Sonu");
 		list.add("Monu");
 		list.add("Tonu");
-		System.out.println(list);
+//		System.out.println(list);
 		list.add(1, "Ponu");
-		System.out.println(list);
+//		System.out.println(list);
 
 		List<String> list2 = new ArrayList<>();
 		list2.add("Soni");
@@ -25,15 +25,15 @@ public class ListMethods {
 		list.addAll(1, list2);
 		System.out.println(list);
 
-//		iterate list elements using iterator 
+		System.out.println("iterate list elements using iterator");
 
 		Iterator<String> iterator = list.iterator();
 		while (iterator.hasNext())
 			System.out.println(iterator.next());
 
-//		iterate list elements using for loop 
+		System.out.println("iterate list elements using for loop");
 
-//		iterate list elements using for each loop
+		System.out.println("iterate list elements using for each loop");
 
 	}
 
