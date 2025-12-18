@@ -30,8 +30,8 @@ public class StreamsDemo {
 //		// process the result
 //		empWithHighSalary.forEach(e -> System.out.println(e.toString()));
 		// shortcut syntax -
-//		empList.stream().filter(e -> e.getSalary() > 92000).forEach(e -> System.out.println(e.toString()));
-//		// other methods 
+		empList.stream().filter(e -> e.getSalary() > 92000).forEach(e -> System.out.println(e.toString()));
+//		// other methods - try these methods 
 //		empStream.map(null);
 //		empStream.limit(0);
 //		empStream.skip(0);
