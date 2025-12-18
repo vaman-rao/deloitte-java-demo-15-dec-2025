@@ -13,14 +13,14 @@ public class CollectionIntro {
 		// type safety
 
 //		ArrayList myList = new ArrayList();
-		List myList = new ArrayList();
+		ArrayList myList = new ArrayList();
 		System.out.println(myList.size());
 		myList.add(10);
 		myList.add(20);
 		myList.add(30);
 		System.out.println(myList);
 		System.out.println(myList.size());
-		myList.remove(0);
+		myList.remove((Integer) 30);
 		System.out.println(myList);
 		System.out.println(myList.size());
 		myList.add(false);

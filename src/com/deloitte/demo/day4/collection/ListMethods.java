@@ -35,6 +35,16 @@ public class ListMethods {
 
 		System.out.println("iterate list elements using for each loop");
 
+		System.out.println("Iterate using forEach method - ");
+
+//		() -> {};
+
+//		list.forEach((abc) -> {
+//			System.out.println(abc);
+//		});
+
+		list.forEach(element -> System.out.println(element));
+
 	}
 
 }
