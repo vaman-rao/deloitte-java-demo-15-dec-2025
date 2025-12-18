@@ -21,6 +21,8 @@ public class ListDemo {
 //		Vector<Integer> vector = new Vector<>();
 //		find and use methods 
 
+		// complete this code
+
 	}
 
 }
