@@ -1,4 +1,4 @@
-package com.deloitte.demo.day4.steramsapi;
+package com.deloitte.demo.day4.streamapi;
 
 public class Employee {
 

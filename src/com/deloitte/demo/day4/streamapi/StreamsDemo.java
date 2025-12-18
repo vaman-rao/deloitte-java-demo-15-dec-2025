@@ -1,4 +1,4 @@
-package com.deloitte.demo.day4.steramsapi;
+package com.deloitte.demo.day4.streamapi;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -24,7 +24,7 @@ public class StreamsDemo {
 		System.out.println("Employees with salary > 92K using Streams API:");
 
 //		// convert list to stream
-		Stream<Employee> empStream = empList.stream();
+//		Stream<Employee> empStream = empList.stream();
 //		// perform required operation
 //		Stream<Employee> empWithHighSalary = empStream.filter(e -> e.getSalary() > 92000);
 //		// process the result
