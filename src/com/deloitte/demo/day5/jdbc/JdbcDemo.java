@@ -25,10 +25,13 @@ public class JdbcDemo {
 				sql = "SELECT id, name, salary FROM employees";
 
 		Connection con = DriverManager.getConnection(url, user, password);
+		System.out.println(con);
 
 		PreparedStatement ps = con.prepareStatement(sql);
+		System.out.println(ps);
 
 		ResultSet rs = ps.executeQuery();
+		System.out.println(rs);
 
 		while (rs.next())
 			System.out.println(rs.getInt("id") + " " + rs.getString("name") + " " + rs.getDouble("salary"));
