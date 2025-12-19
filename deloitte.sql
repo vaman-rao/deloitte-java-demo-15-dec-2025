@@ -1,4 +1,5 @@
 -- SQL (MySQL) – Core Topics List (4 Hours)
+
 -- 	1	SQL & RDBMS Overview
 -- 	2	Database, Schema, Tables, Rows, Columns
 -- 	3	Data Types in MySQL
@@ -40,8 +41,6 @@
 -- 	◦	ROLLBACK
 -- 	19	ACID Properties
 -- 	20	SQL Best Practices (brief)
-
-
 
 
 
